@@ -1,5 +1,9 @@
 pipeline {
-   
+   environment {
+    registry = "jessiegift/scacloud"
+    registryCredential = 'Docker'
+    dockerImage = ''
+  }
     agent any
      tools {nodejs "nodejs"}
     stages {
@@ -12,6 +16,20 @@ pipeline {
             steps {
                 sh 'npm install' 
             }
+        }stage('Building image') {
+      steps{
+        script {
+          dockerImage = docker.build registry + ":$BUILD_NUMBER"
         }
+      }
+    }
+    stage('Deploy Image') {
+      steps{
+        script {
+          docker.withRegistry( '', registryCredential ) {
+            dockerImage.push()
+          }
+        }
+      }
     }
 }
