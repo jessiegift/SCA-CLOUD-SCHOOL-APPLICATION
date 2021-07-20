@@ -12,11 +12,13 @@ pipeline {
         git 'https://github.com/jessiegift/SCA-CLOUD-SCHOOL-APPLICATION.git'
       }
     }
-        stage('Build') { 
+ stage('Build') { 
             steps {
                 sh 'npm install' 
             }
-        }stage('Building image') {
+        }
+      
+         stage('Building image') {
       steps{
         script {
           dockerImage = docker.build registry + ":$BUILD_NUMBER"
@@ -32,5 +34,3 @@ pipeline {
         }
       }
     }
-}
-}
