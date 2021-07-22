@@ -12,3 +12,6 @@ Step 3-i  created a docker account. Kindly visit this link http://Hub.docker.com
 Step 4-I created a repository in my docker. 
 Step 5-I Created a docker file in my GitHub 
 Step 6-Downloaded  docker plugin in my Jenkins and Linux server
+Build and deploy
+![build and deploy successful](https://user-images.githubusercontent.com/87488892/126696742-f15debfc-acfa-460d-b422-1f931eec0919.PNG)
+![deploy sucess original](https://user-images.githubusercontent.com/87488892/126696793-0ceb8ca8-60f3-49e7-ad20-f95f39462086.PNG)
