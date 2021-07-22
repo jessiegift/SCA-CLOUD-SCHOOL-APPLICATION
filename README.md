@@ -1,8 +1,11 @@
 # SCA-CLOUD-SCHOOL-APPLICATION
 For this task
+
+
 • create an Azure subscription account. To create an Azure subscription account visit this link portal.azure.com. also, create your virtual machine running on Linux.
 •  For this task, we would need to install Jenkins. However, a prerequisite is needed which is java, to install java kindly click on this link https://ubuntu.com/tutorials/install-jre#2-installing-openjdk-jre
 To install Jenkins kindly click on this link https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04(website)
+
 •create a GitHub account and also a repository. 
 • I deployed my simple nodejs app to my repository in Github
 • I used the declarative pipeline syntax for defining my Jenkins file
