@@ -20,8 +20,8 @@ Install Jenkins on the Virtual machine, started the development server, and crea
 
 Installed Suggested Plugins
 
-Username:  
-Password:
+Username: jessiegifted  
+Password:08035656928
 
 
 ## step 3 - Create a build Job
@@ -45,9 +45,9 @@ Installed Docker also in my Linux VM
 Then Build again as seen in the below screenshot.
 
 ## Notes
-Username
+Username jessiegifted
 
-Password
+Password 08035656928
 
 Jenkins Url 20.86.110.254:8080
 
