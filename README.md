@@ -26,12 +26,14 @@ Password:08035656928
 
 ## step 3 - Create a build Job
 Created a build Job named SCA cloud 1
+![IMG-20210722-WA0010](https://user-images.githubusercontent.com/87488892/126787109-71e831bf-0377-4a8a-a760-8ca1dd7a3596.jpg)
 
 Used a Declarative Pipeline syntax by creating a Jenkins file in my Github repo.
 
 Installed a nodejs plugin in my Jenkins server as my app is running using NodeJS, also, the tool used in the Jenkins fine is a nodejs tool.
 
 Added my Github Credentials and integrated my repro successfully to Jenkins as seen below.
+![build and deploy successful](https://user-images.githubusercontent.com/87488892/126696742-f15debfc-acfa-460d-b422-1f931eec0919.PNG)
 
 ## step 4 - Deployment
 Create a repository in the Docker account created from step 1
@@ -43,6 +45,8 @@ Installed a Docker Plugin in my Jenkins server
 Installed Docker also in my Linux VM
 
 Then Build again as seen in the below screenshot.
+![deploy sucess original](https://user-images.githubusercontent.com/87488892/126696793-0ceb8ca8-60f3-49e7-ad20-f95f39462086.PNG)
+
 
 ## Notes
 Username jessiegifted
@@ -63,5 +67,3 @@ https://docs.cloudbees.com/docs/admin-resources/latest/pipeline-syntax-reference
 
 https://docs.docker.com/engine/install/ubuntu/
 
-![build and deploy successful](https://user-images.githubusercontent.com/87488892/126696742-f15debfc-acfa-460d-b422-1f931eec0919.PNG)
-![deploy sucess original](https://user-images.githubusercontent.com/87488892/126696793-0ceb8ca8-60f3-49e7-ad20-f95f39462086.PNG)
